@@ -9,7 +9,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
-import RNReactNativeHapticFeedback from 'react-native-haptic-feedback';
+
 
 import Dice1 from './assets/dice1.png';
 import Dice2 from './assets/dice2.png';
@@ -49,8 +49,6 @@ function RollDice(): React.JSX.Element {
     const randIndex = Math.round(Math.random() * 5);
     setDiceImage(() => images[randIndex]);
   };
-
-  RNReactNativeHapticFeedback.trigger("impactLight", options);
 
   return (
     <View style={styles.container}>

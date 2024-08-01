@@ -1,20 +1,13 @@
-# Password Generator App
+# Roll Dice App
 
 ## Overview
 
-The Password Generator App is a React Native application that helps users generate secure passwords based on their chosen criteria. Users can select to include lowercase letters, uppercase letters, numbers, and symbols in the generated password. This application validates the password length and ensures at least one option is selected for generating a password.
+The Roll Dice App is a simple React Native application that simulates rolling a dice. The app is designed to showcase how to manage images and update them dynamically in a React Native project. It features a basic user interface where users can roll a dice and see different dice faces.
 
 ## Features
 
-- Generate passwords with customizable criteria.
-- Options to include lowercase letters, uppercase letters, numbers, and symbols.
-- Validation for password length (minimum 4 characters, maximum 100 characters).
-- Ability to reset options and generated password.
-
-## Screenshot
-
-![App Screenshot](./screenshot/PasswordGenerator.png)
-
+- Dice Display: Show different dice faces using images.
+- Dice Roll: Update the displayed dice face randomly when the user taps the "Roll" button.
 
 
 ## Installation
@@ -23,8 +16,8 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/miraj004/react-native-password-generator-app.git
-   cd password-generator-app
+   git clone https://github.com/your-username/roll-dice-app.git
+   cd roll-dice-app
 
 2. **Install dependencies**
    ```bash
@@ -32,6 +25,7 @@ To get started with this project, follow these steps:
 
 2. **Run the application**
    ```bash
-   npx react-native run-android # For Android
-   npx react-native run-ios     # For iOS
+   npx react-native start # after runnig press "a" to run on android and "i" on iOS
+   
+   
 
